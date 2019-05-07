@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Running | Web</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- MAIN WRAPPER -->
+  <div id="wrapper">
+
+    <!-- BANNER WRAPPER -->
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          <a href="#" id="logo">
+                 <img src="img/pics/running_logo1.jpg" alt=""> 
+          </a>
+
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+
+              <li>
+                <a href="index.html" class="current">Home</a>
+              </li>
+
+              <li>
+                <a href="#information">Information</a>
+              </li>
+
+              <li>
+                <a href="#about">About</a>
+              </li>
+              
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- SLIDER -->
+      <div id="slide-wrap">
+        <section class="slider">
+          <ul class="slider1">
+            <li><img src="img/slider/slider3.jpg" alt=""></li>
+            <li><img src="img/slider/slider5.jpg" alt=""></li>
+            <li><img src="img/slider/slider6.jpg" alt=""></li> 
+            <li><img src="img/slider/slider7.jpg" alt=""></li> 
+            <li><img src="img/slider/slider8.jpg" alt=""></li> 
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- LEFT COL -->
+    <section class="left-col" id="information">
+        <h3>Information</h3>
+        <p>We are a group of runners, which does not matter if you run slow or fast, the important thing is that you like to run, we have training days and we advise you to achieve your goals in running, we are not a lucrative company.</p> 
+      </section>
+  
+
+      <section class="sidebar">
+        <img src="img/pics/running_logo2.jpg">
+      </section>
+    <div class="clearfix-padding"></div>
+
+
+    <!-- LEFT COL -->
+    <section class="left-col" id="about">
+        <h3>About</h3>
+        <p> This is a group designed for all those people who love exercise who like to run and train in order to achieve their goals and win.</p>
+      </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="banner-wrapper">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li> 
+              <a href="#information">Information</a>
+            </li>
+
+            <li> 
+                <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="icon-text-text" id="contact">
+          <ul class="social">
+            <li>
+              <a href="https://www.facebook.com/CarrerasIrapuato.IrapuatoCorre/">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=bHbglNZeykA">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="second-footer">
+    <p>
+      &copy; <a href="http://runningweb.com">RunningWeb.com</a>
+    </p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+</html>
